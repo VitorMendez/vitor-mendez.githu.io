@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@font-face {
+font-family: "Roboto";
+src: url(./fontes/idroid.otf)format("opentype");
+}
+
+* {
+    margin:  0;
+    padding:  0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83E2AB;
+    margin: auto;
+    padding: auto;    
+}
+
+header{ 
+    background-image: linear-gradient(to top, #074507fd, #5aa833e7);
+    margin: 0;
+    padding: 0;
+}
+
+header h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: -1px 0px 7px #000000;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+header > nav{
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+header > nav > ul > li{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin:0px;
+}
+
+header nav ul li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover{
+    background-color: #20f9203d;
+    padding: 5px;
+    border-radius: 10px;
+    
+
+}
+
+main{
+    margin:  0 ;
+    padding: 0 ;
+}
+
+main section{  
+    background-color:whitesmoke;
+    width: 800px;
+    justify-content: center;
+    padding: 20px 30px ;    
+}
+ 
+.fonte{
+    font-family: 'Roboto';
+    color: rgb(1, 78, 1);
+}
+
+.text-green{
+    color: darkgreen;
+    font-weight: 700;
+}
+
+main section aside{
+    margin: 10px;
+}
+
+main section aside h2{
+    font-size:  xx-large;
+}
+
+.fundo-verde{
+    background-image: linear-gradient(to right green, white);
+    padding: 1px 10px;
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.links{
+    background-color: rgb(154, 233, 154);
+    padding: 2px 3px;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: 700;
+}
+
+ main a::after{
+    content: '🔗';
+    padding: 1px;
+}
+
+img,iframe{ 
+   display: block;
+   margin: 0 auto;
+}
+
+div#video{
+    background-color: darkgreen;
+    width: 800px;
+    justify-content: center;
+    padding: 20px 30px ;
+}
+
+div#final{
+    background-color: whitesmoke;
+    width: 800px;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius:0 0 10px 10px;    
+}
+
+div section{        
+    background-color: rgba(159, 219, 159, 0.653);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#artigo-final{
+    background-color: rgba(12, 132, 12, 0.822);
+    padding: 10px;
+    justify-content: center;
+    border-radius:10px 10px 0px 0px;
+}
+
+aside.fundo-verde{
+    background-image: linear-gradient(to right, rgba(65, 201, 65, 0.505) , white );
+}
+
+.lista{
+    display: inline-block;
+    justify-content: center;
+    text-align: justify,center;
+    padding-left: 130px;   
+    list-style: none;
+    margin: 10px; 
+}
+
+section ul li::before{
+    content:"\2714";
+    margin-right: 5px;
+}
+
+div section .links::after{
+    content: "🔗";
+}
+
+footer{
+    background-color: darkgreen;
+    margin:auto;
+}
+
+ footer p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+ footer a {
+    color: white;
+    font-weight: 600;
+ }

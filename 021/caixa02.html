@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(236, 172, 88, 0.685);
+            margin: 0;
+        }
+        header{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: rgba(201, 165, 44, 0.55);
+            margin:10px;
+            padding:10px;
+        }
+        nav{
+            box-shadow: 0px -2px 0px 0px rgba(0, 0, 0, 0.057);
+            background-color: rgba(201, 165, 44, 0.55);
+            border: 1px solid rgba(198, 157, 5, 0.694);
+            
+        }
+        ul{
+            font-weight: 500;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            color: darkblue;
+            text-decoration: solid;
+        }
+        main{
+            background-color: rgba(215, 170, 64, 0.635);
+            margin: 10px;
+            padding: 5px;
+        }
+        
+        #assuntos{
+            background-color: rgba(239, 235, 11, 0.534);
+            border: 0.1px solid rgb(169, 146, 11);
+        }
+        #assuntos > p{
+            font-family: 'Courier New', Courier, monospace, sans-serif;
+            text-align: center;
+            font-weight: 600;
+            margin: 3px;
+            padding: 5px;
+        }
+        section{
+            background-color: rgb(211, 153, 28);
+            border-radius: 10px 0px;
+            margin: 10px;
+            padding: 10px;
+        }
+        #noticias > article > h2{
+            background-color: rgba(69, 69, 57, 0.534);
+            text-align: center;
+            color: white;
+            margin: 0px;
+            padding: 2px;
+        }
+        #noticias > article > p{
+            text-indent: 30px;
+            text-align: justify;
+            padding: 5px;
+        }
+        section#noticias > article > aside{
+            background-color: rgba(69, 69, 57, 0.534);
+            
+            
+            padding: auto;
+            margin: auto;
+        }
+        section#noticias > article > aside > p{
+            color: white;
+            font-style: italic;
+            text-align: center;
+            font-size: 14px;
+            margin: 0px;
+            padding: 3px;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            margin: auto;
+            padding: auto;
+        }
+        footer > p{
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0px;
+            padding: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+               <li><a href="#">Link</a></li>
+               <li><a href="#">Link</a></li>
+               <li><a href="#">Link</a></li>
+               <li><a href="#">Link</a></li>
+               <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit atque, sequi nam fugiat enim voluptatibus error mollitia. Perspiciatis, enim eligendi soluta iusto temporibus quo quis odio nobis fugit ratione reprehenderit.</p>
+                <aside>
+                    <p>Artigo escrito por Albertode Nobrega</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vitor Emanuel </p>
+    </footer>
+</body>
+</html>

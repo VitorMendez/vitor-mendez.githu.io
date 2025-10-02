@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    width: 100%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
+}
+
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: darkblue;
+}
+ h2{
+    
+ }

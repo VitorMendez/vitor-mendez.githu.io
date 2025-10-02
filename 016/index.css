@@ -1,0 +1,30 @@
+/*a regra @carset "UTF-8" e uma regra para não ter problema com caracteres especias como (ç,^,~...)*/
+@charset "UTF-8";
+/*a regra */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to right,#d8b08c,#FFCB9A);
+}
+main{
+    background-color: whitesmoke;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #0f65665e;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #12546e;
+    text-align: center;
+    text-shadow: 1px 1px 2px #17495e7a;
+}
+h2{
+    color: #2C3532;
+}
+p{
+    text-align: justify;
+    
+}

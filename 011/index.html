@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5 </title>
+</head>
+<body>
+    
+    <h1>Imagem dinânmica </h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/m.png" type="image/png">
+        
+        <img src="imagens/g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir Áudio</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/joao-20.mp3" type="audio/mpeg">
+        <source src="midia/joao-20.ogg" type="audio/ogg">
+        <p>Seu navegador não suporta o elemento de áudio tente baixar <button style="background-color: green;border-color: black;
+        border-width: 3px;"><a href="midia/joao-20.mp3" download="joao-20" type="audio/mpeg"><strong>AQUI</strong></button></a>.</p>
+    </audio>
+</body>
+</html>

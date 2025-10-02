@@ -1,0 +1,17 @@
+body{
+    background-color: #1f1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+iframe{
+    border-radius: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 1.5px;
+    box-shadow: 5px 5px 5px black;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
