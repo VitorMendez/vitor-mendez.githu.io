@@ -1,1 +1,3 @@
-# vitor-mendez.githu.io
+# Estudando junto com o professor Gustavo Guanabara
+
+
